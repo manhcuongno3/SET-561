@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>W3Schools</title>
+</head>
+
+<body>
+  <!-- top-navbar -->
+  <div class="top-navbar">
+    <div class="top-navbar__logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" alt="W3Schools Logo">
+    </div>
+    <div class="top-navbar__menu-left">
+      <ul>
+        <li>Tutorials <i class="fa-solid fa-chevron-down"></i></li>
+        <li>References <i class="fa-solid fa-chevron-down"></i></li>
+        <li>Certificates <i class="fa-solid fa-chevron-down"></i></li>
+        <li>Services <i class="fa-solid fa-chevron-down"></i></li>
+      </ul>
+    </div>
+    <div class="top-navbar__search">
+      <input class="search__input" type="text" placeholder="Search...">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="top-navbar__theme-mode">
+      <i class="fa-solid fa-circle-half-stroke"></i>
+    </div>
+    <div class="top-navbar__menu-right">
+      <ul>
+        <li class="menu-right__item"><i class="fa-solid fa-star"></i>Plus</li>
+        <li class="menu-right__item"><i class="fa-solid fa-user-graduate"></i>For Teachers</li>
+        <li class="menu-right__item"><i class="fa-solid fa-users"></i>Spaces</li>
+        <li class="menu-right__item"><i class="fa-solid fa-cart-shopping"></i>Get Certified</li>
+      </ul>
+    </div>
+    <button class="user-profile__button">
+      <i class="fa-solid fa-user"></i>
+    </button>
+  </div>
+  <!-- sub-navbar -->
+  <div class="sub-navbar">
+    <ul>
+      <li class="sub-navbar__arrow-left"><i class="fa-solid fa-chevron-left"></i></li>
+      <li class="sub-navbar__item">HTML</li>
+      <li class="sub-navbar__item">CSS</li>
+      <li class="sub-navbar__item--active">JavaScript</li>
+      <li class="sub-navbar__item">Python</li>
+      <li class="sub-navbar__item">SQL</li>
+      <li class="sub-navbar__item">PHP</li>
+      <li class="sub-navbar__item">Bootstrap</li>
+      <li class="sub-navbar__item">Java</li>
+      <li class="sub-navbar__item">C#</li>
+      <li class="sub-navbar__item">C++</li>
+      <li class="sub-navbar__item">C</li>
+      <li class="sub-navbar__item">R</li>
+      <li class="sub-navbar__item">Kotlin</li>
+      <li class="sub-navbar__item">React</li>
+      <li class="sub-navbar__item">Node.js</li>
+      <li class="sub-navbar__item">Django</li>
+      <li class="sub-navbar__item">Flask</li>
+      <li class="sub-navbar__arrow-right"><i class="fa-solid fa-chevron-right"></i></li>
+    </ul>
+  </div>
+  <!-- left-menu -->
+  <div class="left-menu">
+    <div class="topic__title">JS Tutorial</div>
+    <ul>
+      <li class="topic__link">JS HOME</li>
+      <li class="topic__link--active">JS Introduction</li>
+      <li class="topic__link">JS Where To</li>
+      <li class="topic__link">JS Output</li>
+      <li class="topic__link">JS Statements</li>
+      <li class="topic__link">JS Syntax</li>
+      <li class="topic__link">JS Comments</li>
+      <li class="topic__link">JS Variables</li>
+      <li class="topic__link">JS Operators</li>
+      <li class="topic__link">JS Arithmetic</li>
+      <li class="topic__link">JS Assignment</li>
+    </ul>
+
+    <div class="topic__title">JS Version</div>
+    <ul>
+      <li class="topic__link">JS Versions</li>
+      <li class="topic__link">JS 2009</li>
+      <li class="topic__link">JS 2015</li>
+      <li class="topic__link">JS 2016</li>
+      <li class="topic__link">JS 2017</li>
+      <li class="topic__link">JS 2018</li>
+      <li class="topic__link">JS 2019</li>
+      <li class="topic__link">JS 2020</li>
+      <li class="topic__link">JS 2021</li>
+    </ul>
+
+    <div class="topic__title">JS Objects</div>
+    <ul>
+      <li class="topic__link">JS Definitions</li>
+      <li class="topic__link">JS Objects</li>
+      <li class="topic__link">JS Properties</li>
+      <li class="topic__link">JS Methods</li>
+      <li class="topic__link">JS Functions</li>
+      <li class="topic__link">JS Events</li>
+    </ul>
+
+    <div class="topic__title">JS Reference</div>
+    <ul>
+      <li class="topic__link">JS Definitions</li>
+      <li class="topic__link">JS Objects</li>
+      <li class="topic__link">JS Properties</li>
+      <li class="topic__link">JS Methods</li>
+      <li class="topic__link">JS Functions</li>
+      <li class="topic__link">JS Events</li>
+    </ul>
+  </div>
+
+  <!-- main-content -->
+  <div class="w3-container">
+    <div class="main">
+      <h1>JavaScript Introduction</h1>
+      <div class="next-previos__block">
+        <button class="previous-topic"><i class="fa-solid fa-chevron-left"></i>Previous</button>
+        <button class="next-topic">Next <i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+
+      <div class="main__infor">
+        <p>This page contains some examples of what JavaScript can do.</p>
+      </div>
+
+      <h2>JavaScript Can Change HTML Content</h2>
+      <p>One of many JavaScript HTML methods is getElementById().</p>
+      <p>The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to
+        "Hello JavaScript":</p>
+
+      <div class="main__example">
+        <h3>Example</h3>
+        <div class="example__code">
+          <span>document.getElementById("demo").innerHTML = "Hello JavaScript";</span>
+        </div>
+        <button class="main__button--primary">Try it Yourself <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <div class="main__note">
+        <p>JavaScript accepts both double and single quotes:</p>
+      </div>
+
+      <div class="main__example">
+        <h3>Example</h3>
+        <div class="example__code">
+          <span>document.getElementById('demo').innerHTML = 'Hello JavaScript';</span>
+        </div>
+        <button class="main__button--primary">Try it Yourself <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <h2>JavaScript Can Change HTML Attribute Values</h2>
+      <p>In this example JavaScript changes the value of the src (source) attribute of an <img> tag:</p>
+
+      <div class="main__example">
+        <h3>The Light Bulb </h3>
+        <div class="example__code">
+          <div class="example__code--with-image">
+            <button class="example__button--bulb">Turn on the light</button>
+            <img src="https://www.w3schools.com/js/pic_bulboff.gif" alt="Light Bulb">
+            <button class="example__button--bulb">Turn off the light</button>
+          </div>
+        </div>
+        <button class="main__button--primary">Try it Yourself <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <h2>JavaScript Can Change HTML Styles (CSS)</h2>
+      <p>Changing the style of an HTML element, is a variant of changing an HTML attribute:</p>
+
+      <div class="main__example">
+        <h3>Example</h3>
+        <div class="example__code">
+          <span>document.getElementById("demo").style.fontSize = "35px";</span>
+        </div>
+        <button class="main__button--primary">Try it Yourself <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <h2>JavaScript Can Hide HTML Elements</h2>
+      <p>Hiding HTML elements can be done by changing the display style:</p>
+
+      <div class="main__example">
+        <h3>Example</h3>
+        <div class="example__code">
+          <span>document.getElementById("demo").style.display = "none";</span>
+        </div>
+      </div>
+
+      <h2>JavaScript Can Show HTML Elements</h2>
+      <p>Showing hidden HTML elements can also be done by changing the display style:</p>
+
+      <div class="main__example">
+        <h3>Example</h3>
+        <div class="example__code">
+          <span>document.getElementById("demo").style.display = "block";</span>
+        </div>
+        <button class="main__button--primary">Try it Yourself <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <div class="main__note">
+        <h3>Did You Know?</h3>
+        <p>JavaScript and Java are completely different languages, both in concept and design.</p>
+        <p>JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.</p>
+        <p>ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.</p>
+        <button class="main__button--primary">JavaScript Versions <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <div class="next-previos__block">
+        <button class="previous-topic"><i class="fa-solid fa-chevron-left"></i>Previous</button>
+        <button class="next-topic">Next <i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+
+    <div class="w3-container__right">
+      <div class="right__advertisements">
+        <img src="https://www.w3schools.com/images/img_falilla_up_160.webp" alt="Advertisement">
+      </div>
+    </div>
+  </div>
+  <!-- footer-wrapper -->
+  <div class="footer-wrapper">
+    <div class="footer-links">
+      <a class="footer-links__1" href="#"> <img
+          src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" alt="W3Schools Logo"></a>
+      <a class="footer-links__1" href="#">PLUSS</a>
+      <a class="footer-links__1" href="#">FOR TEACHERS</a>
+      <a class="footer-links__1" href="#">SPACES</a>
+      <a class="footer-links__1" href="#">GET CERTIFIED</a>
+      <a class="footer-links__1" href="#">FOR BUSINESS</a>
+      <a class="footer-links__1" href="#">CONTACT US</a>
+    </div>
+    <div class="footer__column">
+      <div class="footer-links__2">
+        <h5>Top Tutorials</h5>
+        <a class="column__link">HTML Tutorial</a>
+        <a class="column__link">CSS Tutorial</a>
+        <a class="column__link">JavaScript Tutorial</a>
+        <a class="column__link">How To Tutorial</a>
+        <a class="column__link">SQL Tutorial</a>
+        <a class="column__link">Python Tutorial</a>
+        <a class="column__link">W3.CSS Tutorial</a>
+        <a class="column__link">Bootstrap Tutorial</a>
+        <a class="column__link">PHP Tutorial</a>
+        <a class="column__link">Java Tutorial</a>
+        <a class="column__link">C++ Tutorial</a>
+        <a class="column__link">jQuery Tutorial</a>
+        <a class="column__link">C Tutorial</a>
+        <a class="column__link">R Tutorial</a>
+        <a class="column__link">Kotlin Tutorial</a>
+      </div>
+      <div class="footer-links__2">
+        <h5>Top References</h5>
+        <a class="column__link">HTML Reference</a>
+        <a class="column__link">CSS Reference</a>
+        <a class="column__link">JavaScript Reference</a>
+        <a class="column__link">SQL Reference</a>
+        <a class="column__link">Python Reference</a>
+        <a class="column__link">W3.CSS Reference</a>
+        <a class="column__link">Bootstrap Reference</a>
+        <a class="column__link">PHP Reference</a>
+        <a class="column__link">Java Reference</a>
+        <a class="column__link">Angular Reference</a>
+        <a class="column__link">jQuery Reference</a>
+        <a class="column__link">C++ Reference</a>
+        <a class="column__link">C Reference</a>
+        <a class="column__link">R Reference</a>
+        <a class="column__link">Kotlin Reference</a>
+      </div>
+      <div class="footer-links__2">
+        <h5>Top Examples</h5>
+        <a class="column__link">HTML Examples</a>
+        <a class="column__link">CSS Examples</a>
+        <a class="column__link">JavaScript Examples</a>
+        <a class="column__link">SQL Examples</a>
+        <a class="column__link">Python Examples</a>
+        <a class="column__link">W3.CSS Examples</a>
+        <a class="column__link">Bootstrap Examples</a>
+        <a class="column__link">PHP Examples</a>
+        <a class="column__link">Java Examples</a>
+        <a class="column__link">Angular Examples</a>
+        <a class="column__link">jQuery Examples</a>
+        <a class="column__link">React Examples</a>
+        <a class="column__link">Node.js Examples</a>
+        <a class="column__link">Django Examples</a>
+        <a class="column__link">Flask Examples</a>
+      </div>
+      <div class="footer-links__2">
+        <h5>Get Certified</h5>
+        <a class="column__link">HTML Certification</a>
+        <a class="column__link">CSS Certification</a>
+        <a class="column__link">JavaScript Certification</a>
+        <a class="column__link">Python Certification</a>
+        <a class="column__link">SQL Certification</a>
+        <a class="column__link">PHP Certification</a>
+        <a class="column__link">Java Certification</a>
+        <a class="column__link">C++ Certification</a>
+        <a class="column__link">C Certification</a>
+        <a class="column__link">R Certification</a>
+        <a class="column__link">Kotlin Certification</a>
+        <a class="column__link">React Certification</a>
+        <a class="column__link">Node.js Certification</a>
+        <a class="column__link">Django Certification</a>
+        <a class="column__link">Flask Certification</a>
+      </div>
+    </div>
+
+    <div class="footer__social">
+      <a class="footer__social--button"><i class="fa-brands fa-facebook-f"></i></a>
+      <a class="footer__social--button"><i class="fa-brands fa-instagram"></i></a>
+      <a class="footer__social--button"><i class="fa-brands fa-twitter"></i></a>
+      <a class="footer__social--button"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a class="footer__social--button"><i class="fa-brands fa-youtube"></i></a>
+      <a class="footer__social--link">FORUM</a>
+      <a class="footer__social--link">ABOUT</a>
+      <a class="footer__social--link">ACADEMY</a>
+    </div>
+
+    <div class="footer__text">
+      <p>W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning.
+        Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full
+        correctness
+        of all content. While using W3Schools, you agree to have read and accepted our terms of use, cookie and privacy
+        policy.</p>
+      <p>Copyright 1999-2024 by Refsnes Data. All Rights Reserved. W3Schools is Powered by W3.CSS.</p>
+    </div>
+  </div>
+</body>
+
+</html>
